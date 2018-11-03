@@ -26,7 +26,7 @@ class WooCommerce_Mennyisegi_Gombok
 
         //LOAD ASSETS
         wp_enqueue_script('woo_mg.js', plugin_dir_url(__FILE__) . 'assets/js/woo_mg.js', array('jquery'));
-        wp_enqueue_style('slider', plugin_dir_url(__FILE__) . 'assets/css/woo_mg.css', false, '0.1', 'all');
+        wp_enqueue_style('slider', plugin_dir_url(__FILE__) . 'assets/css/woo_mg.css', false, '0.0.2', 'all');
 
     }
 

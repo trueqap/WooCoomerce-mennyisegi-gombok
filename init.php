@@ -3,7 +3,7 @@
  * Plugin Name:       WooCommerce Mennyiségi Gombok
  * Plugin URI:        https://github.com/trueqap/WooCoomerce-mennyisegi-gombok
  * Description:       Description Szeretnél gombokat WooCommerce termékek mennyiségének növelésére és csökkentésére?
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            Laszlo Patai
  * Author URI:        https://webmi.io
  * Text Domain:       woocoomerce-mennyisegi-gombok

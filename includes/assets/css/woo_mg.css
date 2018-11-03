@@ -1,11 +1,50 @@
-/* Hide HTML5 number input spin box for Chrome, Opera & Safari */
-.woocommerce .quantity input[type="number"]::-webkit-outer-spin-button,
-.woocommerce .quantity input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none !important;
-  margin: 0;
+.woocommerce .quantity input.plus, .woocommerce .quantity input.minus {
+    height: 44px;
+    width: 43px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400 !important;
+    position: relative;
+    font-size: 20px;
+}
+.woocommerce .quantity input.plus {
+    float: right;
+    border-radius: 0px;
+}
+.woocommerce .quantity input.minus {
+    float: left;
+    border-radius: 0px;
+}
+.woocommerce input[type="number"]{
+  font-size: 16px;
+border-top: 1px solid #ccc;
+border-right: none;
+border-left: none;
+border-bottom: 1px solid #ccc;
+}
+.woocommerce input[type="number"] {
+    -moz-appearance: textfield;
+}
+.woocommerce input[type=number]::-webkit-inner-spin-button,
+.woocommerce input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.woocommerce .product div.entry-summary .cart .button {
+    margin-left: 10px;
+}
+.woocommerce .quantity input.qty {
+    min-width: 50px;
+}
+.woocommerce .quantity .qty {
+    width: 1em !important;
+}
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents .quantity {
+    display: inline-block;
 }
 
-/* Hide HTML5 number input spin box for Firefox */
-.woocommerce .quantity input[type="number"] {
-  -moz-appearance: textfield;
+.woocommerce .quantity input.input-text.qty.text {
+    height: 44px;
 }
+
+.woocommerce .quantity{padding-bottom:20px}
